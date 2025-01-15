@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: ""
+  name: "Seung Won Yoo"
   avatar : "/assets/images/bio-photo.jpg"
   bio: "I am a Ph.D. student in the School of Electrical Engineering, KAIST. I received my M.S. Degree in Dept. of Electrical Engineering, KAIST in 2023. I received my B.S. degree in Dept. of Electrical Engineering, Ulsan, Korea in 2021."
   location: "KAIST, Daejeon, Korea"
