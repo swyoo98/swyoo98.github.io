@@ -36,21 +36,21 @@ body {
 .page {
   @include breakpoint($large) {
     float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    width: 100% /*calc(100% - #{$right-sidebar-width-narrow});*/
+    padding-inline-end: 0; /*$right-sidebar-width-narrow;*/
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    width: 100% /*calc(100% - #{$right-sidebar-width});*/
+    padding-inline-end: 0; /*$right-sidebar-width;*/
   }
 
-  /*.page__inner-wrap {
+  .page__inner-wrap {
     float: inline-start;
     margin-top: 1em;
     margin-inline: 0;
     width: 100%;
-    clear: both;*/
+    clear: both;
 
     .page__content,
     .page__meta,
