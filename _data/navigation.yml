@@ -2,8 +2,8 @@ main:
   - title: "Home"
     url: / 
   - title: "Publications"
-    url: /posts/
+    url: /publication/
   - title: "Teaching"
-    url: /categories/
+    url: /teaching/
   - title: "Projects"
-    url: /tags/
+    url: /projects/
