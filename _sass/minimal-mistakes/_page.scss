@@ -84,6 +84,12 @@ body {
 }
 
 .page__content {
+  width: 90%; /* Scales dynamically with the browser width */
+  max-width: 1200px; /* Restrict maximum width for readability */
+  min-width: 300px; /* Prevents content from becoming too narrow */
+  margin: 0 auto; /* Centers the content */
+  padding: 0 1rem; /* Adds horizontal padding for better readability */
+  
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
