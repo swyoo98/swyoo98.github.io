@@ -12,17 +12,17 @@
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name" style="font-size: 18px">
+    <h3 class="author__name p-name" itemprop="name" style="font-size: 20px">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
     {% if author.bio %}
-      <div class="author__bio p-note" itemprop="description" style="font-size: 18px">
+      <div class="author__bio p-note" itemprop="description" style="font-size: 20px">
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
   </div>
 
-  <div class="author__urls-wrapper" style="font-size: 16px;">
+  <div class="author__urls-wrapper" style="font-size: 20px;">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
