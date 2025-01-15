@@ -12,11 +12,11 @@
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
+    <h3 class="author__name p-name" itemprop="name" style="font-size: 18px">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
     {% if author.bio %}
-      <div class="author__bio p-note" itemprop="description">
+      <div class="author__bio p-note" itemprop="description" style="font-size: 14px">
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
