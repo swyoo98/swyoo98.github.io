@@ -24,6 +24,11 @@ github_username: swyoo98
 minimal_mistakes_skin: default
 search: false
 
+author:
+  name: ""
+  bio: "I am a Ph.D. student in the School of Electrical Engineering, KAIST. I received my M.S. Degree in Dept. of Electrical Engineering, KAIST in 2023. I received my B.S. degree in Dept. of Electrical Engineering, Ulsan, Korea in 2021."
+  location: "KAIST, Daejeon, Korea"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -58,34 +63,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name: ""
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio: "I am a Ph.D. student in the School of Electrical Engineering, KAIST. I received my M.S. Degree in Dept. of Electrical Engineering, KAIST in 2023. I received my B.S. degree in Dept. of Electrical Engineering, Ulsan, Korea in 2021."
+  location: "KAIST, Daejeon, Korea"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/seungwon-yoo-664b91252/"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/swyoo98/"
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
