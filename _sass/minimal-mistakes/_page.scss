@@ -35,20 +35,20 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: none; /* inline-end;*/
-    width: 100%; /*calc(100% - #{$right-sidebar-width-narrow});*/
-    padding-inline-end: 0; /*$right-sidebar-width-narrow;*/
+    float: inline-end;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-inline-end: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: 100%; /*calc(100% - #{$right-sidebar-width});*/
-    padding-inline-end: 0; /*$right-sidebar-width;*/
+    width: calc(100% - #{$right-sidebar-width});
+    padding-inline-end: $right-sidebar-width;
   }
 
   .page__inner-wrap {
-    float: none; /*inline-start;*/
+    float: inline-start;
     margin-top: 1em;
-    margin-inline: auto /*0;*/
+    margin-inline: 0;
     width: 100%;
     clear: both;
 
@@ -56,8 +56,8 @@ body {
     .page__meta,
     .page__share {
       position: relative;
-      float: none; /*inline-start;*/
-      margin-inline: auto; /*0;*/
+      float: inline-start;
+      margin-inline: 0;
       width: 100%;
       clear: both;
     }
