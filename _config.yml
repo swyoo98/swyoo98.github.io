@@ -60,7 +60,7 @@ plugins:
 author:
   name: "Seung Won Yoo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio: "Ph.D. student, Operating System Laboratory (OSLAB), School of Electrical Engineering"
+  bio: "Ph.D. student, OSLAB@KAIST"
   location: "KAIST, Daejeon, Korea"
   links:
     - label: "LinkedIn"
