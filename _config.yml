@@ -64,7 +64,7 @@ author:
   location: "KAIST, Daejeon, Korea"
   links:
     - label: "Mail"
-      icon: "fab fa-fw fa-envelope-squre"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:swyoo98@kaist.ac.kr"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
