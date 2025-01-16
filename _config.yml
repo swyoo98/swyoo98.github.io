@@ -63,6 +63,8 @@ author:
   bio: "Ph.D. student, OSLAB@KAIST"
   location: "KAIST, Daejeon, Korea"
   links:
+    - label: "Mail"
+      icon: "fas fa-fw fa-envelope-squre"
     - label: "LinkedIn"
       icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/seungwon-yoo-664b91252/"
