@@ -65,6 +65,7 @@ author:
   links:
     - label: "Mail"
       icon: "fas fa-fw fa-envelope-squre"
+      url: "mailto:swyoo98@kaist.ac.kr"
     - label: "LinkedIn"
       icon: "fas fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/seungwon-yoo-664b91252/"
